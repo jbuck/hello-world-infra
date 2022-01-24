@@ -1,0 +1,3 @@
+steps:
+- name: 'us-west1-docker.pkg.dev/opst-82-poc/tools/helm:3.7.0'
+  args: ['upgrade', 'hello-work-app', './hello-work-app']
