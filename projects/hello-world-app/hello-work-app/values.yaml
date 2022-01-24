@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: us-west1-docker.pkg.dev/opst-82-poc/hello-world-app/foo
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
