@@ -1,4 +1,6 @@
 steps:
+- name: 'ubuntu'
+  args: 'echo $_DOCKER_ACTION $_DOCKER_IMAGE_DIGEST $_DOCKER_IMAGE_TAG'
 - name: 'us-west1-docker.pkg.dev/opst-82-poc/tools/helm:3.7.0'
   args: ['upgrade', 'hello-work-app', 'projects/hello-world-app/hello-work-app']
 options:
