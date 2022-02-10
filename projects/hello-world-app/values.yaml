@@ -1,0 +1,15 @@
+aSecretValue: ENC[AES256_GCM,data:ikYVPti/9yiXmVXQ,iv:ZJSlGLX93PWmyWNE9Njz3cnfBXt6UiUi36tusxmIUhI=,tag:kbg1O6GzrKWRJwU7gT5EBw==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+        - resource_id: projects/opst-82-poc/locations/global/keyRings/sops/cryptoKeys/sops-key
+          created_at: "2022-02-10T07:42:02Z"
+          enc: CiQAUApkzoerQA4KQOnpqCdcbBbqwX/xBACfyIn7XsBKW58SMocSSQAQPrwyLWiNRfKx8LCJ1Xm4eomoph/EkQlJbGXxbQA2FJCwx/FzbvwzAZIA32GWwQeu50YWdhP3YWJ40JrenwitczaMRvPli10=
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2022-02-10T07:42:39Z"
+    mac: ENC[AES256_GCM,data:kEpajXZpp9Ohmn3SVy8HR7oD5eBR7jj+QIbr6vO6vL8J+VQIgkFITBC5ekuRD0tv+M+iWw281eqZqG95+t82trqN8GsAa36FjJH3jQ4Ccgqupur/nen2R/iw+AW9W3okcE1K4OSG/euiARElBojkVN/0BjhY3oypkxcBm3NBkEQ=,iv:6crNIcpr7cniaonrd9DhR1Ce8C+XWbft1XEX18hnz4c=,tag:iZOP+jjoDUcGeuWqDpnrow==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.1
